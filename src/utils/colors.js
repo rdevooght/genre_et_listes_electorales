@@ -1,3 +1,9 @@
+export const positive_negative_neutral_colors = {
+  'positive': '#38761d',
+  'negative': '#cc0000',
+  'neutral': '#666666',
+};
+
 export const gender_colors = {
   'F': '#813bb0',
   'M': '#cda318',

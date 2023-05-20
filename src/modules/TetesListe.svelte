@@ -1,22 +1,23 @@
 <script>
   import { slide } from 'svelte/transition';
-  import {get_tete_liste_ratio, get_fin_de_liste_ratio} from '../utils/data_handlers'
+  import {get_tete_liste_ratio, get_fin_de_liste_ratio, get_ratio_at_position} from '../utils/data_handlers'
   import HorizontalStackedBar from './HorizontalStackedBar.svelte';
   import { gender_colors } from '../utils/colors';
   import {sort} from 'd3-array'
 
   const views = [
-    // {name: 'global', options: {}},
+    {name: 'Global', options: {}},
     {name: 'Par Election', options: {group_by: 'election'}},
     {name: 'Par Parti', options: {group_by: 'simplified_party'}},
   ]
 
   const positions = [
     {name: 'Tetes de liste', getter: get_tete_liste_ratio},
+    {name: '3ème place', getter: x => get_ratio_at_position(3, x)},
     {name: 'Fins de liste', getter: get_fin_de_liste_ratio}
   ]
 
-  let current_view = views[0];
+  let current_view = views[1];
   let current_position = positions[0];
   $: ratios = sort(current_position.getter(current_view.options), d => d.women_perc)
   $: console.log(ratios)
@@ -33,7 +34,7 @@
 
 <div class="py-4">
 
-  <div class="flex gap-5 w-full justify-between">
+  <div class="flex flex-col sm:flex-row gap-5 w-full justify-between">
     <div class="button-group">
       {#each views as v}
         <button 

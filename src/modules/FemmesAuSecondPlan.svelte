@@ -16,7 +16,9 @@
   <img class="mx-auto" src="img/lists.png" alt="69% des tetes de listes sont des hommes, 56% des fins de listes sont des hommes, et 66% des listes de longueur impaire ont plus d'hommes que de femmes">
 
   <p>
-    Les places stratégiques (tête de liste et fin de liste) sont majoritairement occupées par des hommes. 
+    Les places stratégiques (tête de liste, fin de liste, 3<sup>ème</sup> place
+    <Tooltip content="Les deux premières places doivent être occupées par une femme et un homme, mais il n’y a pas de contrainte sur la 3ème place. Dans 69% des cas, il s’agit d’un homme.">?</Tooltip>
+    ) sont majoritairement occupées par des hommes. 
     Dans les cas où la liste n’est pas paritaire, c’est le plus souvent en faveur des hommes
     <Tooltip content="Parmi les 364 listes effectives, 183 ont un nombre impair de candidat·es. Les 181 listes de longueur paire doivent, légalement, être paritaires">?</Tooltip>.
   </p>
