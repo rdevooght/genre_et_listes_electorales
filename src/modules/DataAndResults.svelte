@@ -1,6 +1,7 @@
 <script>
     import HorizontalStackedBar from "./HorizontalStackedBar.svelte";
     import { gender_colors } from "../utils/colors";
+    import AllCandidates from "./AllCandidates.svelte";
 
     const parliamentData = [
       { name: "Chambre des représentants", F: 42.7, M: 57.3 },
@@ -21,10 +22,14 @@
   Le 26 mai 2019, les belges ont voté pour élire leurs député·es aux parlements régionaux, communautaires, fédéral et européen.
   </p>
   <p>
-  Ce jour-là, 484 sièges étaient en jeu. 6927 candidat·es réparti·es sur 364 listes. Des données d’une telle ampleur permettent d’identifier certaines pratiques récurrentes. 
+  Ce jour-là, 484 sièges étaient en jeu. 6927 candidat·es réparti·es sur 364 listes.  
   </p>
+
+  <AllCandidates />
+
   <p>
-  Voyons d’abord le résultat de ces élections
+    Des données d’une telle ampleur permettent d’identifier certaines pratiques récurrentes.
+    Voyons d’abord le résultat de ces élections
   </p>
 
   {#each parliamentData as parliament, i}
