@@ -29,4 +29,8 @@
 
     <ExplorateurDePerformances />
     
+    <p class="text-xs text-gray-500 italic">
+      On ne tient pas compte ici des candidat·es à la dernière position dans les listes, 
+      car il est attendu de leur part d’obtenir un meilleur classement que leur position dans la liste.
+    </p>
 </div>

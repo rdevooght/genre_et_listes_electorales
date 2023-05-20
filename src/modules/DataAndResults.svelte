@@ -50,8 +50,8 @@
   </p>
   <ul class="ml-5">
     <li>
-      Nous ne sommes pas dans une situation où il y a tantôt une légère majorité de femme, tantôt une légère majorité d’homme: 
-      Il y a eu, systématiquement, dans le passé comme aujourd’hui, une majorité d’homme au parlement.
+      Nous ne sommes pas dans une situation où il y a tantôt une légère majorité de femmes, tantôt une légère majorité d’hommes: 
+      Il y a eu, systématiquement, dans le passé comme aujourd’hui, une majorité d’hommes au parlement.
     </li>
     <li>Les femmes représentent 52% de la population adulte, pas 50%.</li>
     <li>Une différence de quelques sièges peut jouer beaucoup au sein d’un parlement.</li>
