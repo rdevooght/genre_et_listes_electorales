@@ -7,15 +7,28 @@
   const lists = get_lists();
 
   let random_list = lists[0];
-  $: rc = get_rand_elem(random_list.candidates);
+  let rc = get_rand_elem(random_list.candidates);
+  let auto_play = true;
 
   setInterval(() => {
-    random_list = get_rand_elem(lists);
+    if (auto_play) {
+      random_list = get_rand_elem(lists);
+      rc = get_rand_elem(random_list.candidates);
+    }
   }, 5000)
+
+  function show_candidate(list, c) {
+    random_list = list;
+    rc = c;
+  }
 
 </script>
 
-<div class="relative rounded p-1 border bg-slate-50 mb-3">
+<div 
+  class="relative rounded p-1 border bg-slate-50 mb-3" 
+  on:mouseover={() => auto_play = false} on:mouseout={() => auto_play = true}
+  on:focus={() => auto_play = false} on:blur={() => auto_play = true}
+>
 
   <div class="text-lg px-2">{rc.first_name} {rc.last_name}</div>
 
@@ -41,6 +54,8 @@
             class:selected={c === rc}
             style:background-color={(list === random_list) ? get_party_color(c) : '#e2e8f0'}
             style:border-color={(list === random_list) ? get_party_color(c) : ''}
+            on:mouseenter={() => show_candidate(list, c)}
+            on:click={() => show_candidate(list, c)}
             >
           </div>
         {/each}
