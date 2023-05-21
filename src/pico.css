@@ -704,6 +704,18 @@ ul {
   font-size: var(--font-size);
 }
 
+address,
+blockquote,
+dl,
+figure,
+form,
+ol,
+p,
+pre,
+ul {
+  max-width: 40em;
+}
+
 a,
 [role=link] {
   --color: var(--primary);

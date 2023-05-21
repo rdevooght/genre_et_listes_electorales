@@ -6,7 +6,7 @@
     Bien que cela puisse sembler encore loin, les partis politiques préparent déjà leurs listes électorales. Un enjeu crucial sera la place des femmes sur ces listes. 
     </p>
     <p>
-    On le sait, les femmes sont sous-représentées dans les différents parlements et ont moins souvent la parole. Cette inégalité découle en partie de la place des femmes sur les listes électorales.
+    On le sait, les femmes sont sous-représentées dans les différents parlements et <a href="https://blog.robindevooght.be/posts/genre_au_parlement_wallon/">ont moins souvent la parole</a>. Cette inégalité découle en partie de la place des femmes sur les listes électorales.
     </p>
     <p>
       Pourtant, depuis 2002, <a href="https://igvm-iefh.belgium.be/fr/activites/politique/lois_sur_la_parite">les lois sur la parité</a> imposent aux partis politiques de présenter des listes où se trouvent autant d'hommes que de femmes, 

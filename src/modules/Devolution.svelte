@@ -9,7 +9,7 @@
     Être positionné en tête de liste est un avantage en termes de visibilité pendant la campagne et dans les bureaux de vote, et joue à priori un rôle dans l’obtention d’un plus grand nombre de voix de préférences. Mais ce n’est pas le seul avantage d’une position en début de liste, en effet, la tête de liste sera la première personne à bénéficier du système de dévolution des voix.
     </p>
 
-    <div class="rounded bg-slate-50 border p-2 mb-4">
+    <div class="rounded bg-slate-50 border p-2 mb-4 w-fit">
       <p>
         <span class="text-lg font-bold">Comment fonctionne la dévolution ?</span><br/>
         <span class="text-xs text-gray-500 italic">En simplifiant quelques détails</span>
@@ -30,7 +30,8 @@
     </div>
     
     <p>
-    Le système de dévolution a ses justifications, mais il n’est pas le seul système possible. Nous avons exploré ce qu’auraient donné les élections si d'autres systèmes de dévolution étaient appliqués. Nous n’avons donc pas touché aux voix de préférence obtenues, au nombre de voix pour la liste ou au nombre de sièges obtenus par liste.
+      Voici deux expériences qui permettent de mesurer l’impact du système de dévolution, et la manière dont les hommes, 
+      en occupant majoritairement les têtes de liste, en bénéficient.
     </p>
     <h3>Sans la dévolution</h3>
     

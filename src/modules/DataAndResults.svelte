@@ -15,7 +15,7 @@
 
 </script>
 <div>
-  <h2>6927 candidat·es, 484 élu·es</h2>
+  <h2>6927 candidat·es</h2>
 
 
   <p>
@@ -31,6 +31,8 @@
     Des données d’une telle ampleur permettent d’identifier certaines pratiques récurrentes.
     Voyons d’abord le résultat de ces élections
   </p>
+
+  <h2>484 élu·es</h2>
 
   {#each parliamentData as parliament, i}
   <div class="mt-1 mb-3">
@@ -57,9 +59,11 @@
     <li>Une différence de quelques sièges peut jouer beaucoup au sein d’un parlement.</li>
   </ul>
   <p>
-  Pourquoi y a-t-il plus d’hommes élus ? Une réponse est simplement que les hommes récoltent plus de voix que les femmes. Non seulement cette réponse ne fait que repousser la question un pas plus loin, mais en plus elle n’est pas entièrement exacte, comme nous le montrons en analysant l’impact du système de dévolution.
+  Pourquoi y a-t-il plus d’hommes élus ? Une réponse est simplement que les hommes récoltent plus de voix que les femmes. 
+  Non seulement cette réponse ne fait que repousser la question un pas plus loin, mais en plus elle n’est pas entièrement exacte, 
+  comme on le verra plus bas en analysant l’impact du système de dévolution.
   </p>
   <p>
-  Les causes de cette disparité sont complexes et variées, mais nous argumentons ici que les partis, au moment de la création des listes, ont joué un rôle important dans le maintien de cette inégalité d’accès aux parlements.
+    Les causes de cette disparité sont complexes et variées, mais cela vient entre autres de comment sont conçues les listes électorales.
   </p>
 </div>

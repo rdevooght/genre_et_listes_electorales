@@ -13,7 +13,7 @@
     <p>
       Pour le voir, comparons la position des candidat·es dans les listes avec leur classement en termes de voix de préférence. 
     </p>
-    <img class="mx-auto" src="img/performance.png" alt="Exemple d'une comparaison des positions des canditat·es sur une liste fictive, et en termes de voix de préférence"/>
+    <img src="img/performance.png" alt="Exemple d'une comparaison des positions des canditat·es sur une liste fictive, et en termes de voix de préférence"/>
     <p>
       Certain·es candidat·es dépassent les attentes et ont une meilleure place en termes de voix de préférence que dans la liste électorale. 
       On peut l'interpréter comme une sous-estimation, de la part du parti, de la capacité du ou de la candidat·e à obtenir des voix.
@@ -28,9 +28,4 @@
     </p>
 
     <ExplorateurDePerformances />
-    
-    <p class="text-xs text-gray-500 italic">
-      On ne tient pas compte ici des candidat·es à la dernière position dans les listes, 
-      car il est attendu de leur part d’obtenir un meilleur classement que leur position dans la liste.
-    </p>
 </div>

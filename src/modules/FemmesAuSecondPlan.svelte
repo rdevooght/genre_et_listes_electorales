@@ -10,10 +10,13 @@
 <div>
   <h2>Les femmes au second plan</h2>
   <p>
-  La loi sur la parité de 2002 impose aux listes électorales d’avoir un homme et une femme dans les deux premières positions, et que la différence entre le nombre de femmes et d’hommes sur la liste soit au maximum de 1. Cela laisse à priori peu de marge de manœuvre pour favoriser un genre plutôt qu’un autre au moment de la construction des listes. Nous observons cependant que partout où la loi laisse le choix aux partis, les hommes sont en général mis en avant.
+  La loi sur la parité de 2002 impose aux listes électorales d’avoir un homme et une femme dans les deux premières positions, 
+  et que la différence entre le nombre de femmes et d’hommes sur la liste soit au maximum de 1. 
+  Cela laisse à priori peu de marge de manœuvre pour favoriser un genre plutôt qu’un autre au moment de la construction des listes. 
+  On observe cependant que partout où la loi laisse le choix aux partis, les hommes sont en général mis en avant.
   </p>
 
-  <img class="mx-auto" src="img/lists.png" alt="69% des tetes de listes sont des hommes, 56% des fins de listes sont des hommes, et 66% des listes de longueur impaire ont plus d'hommes que de femmes">
+  <img src="img/lists.png" alt="69% des tetes de listes sont des hommes, 56% des fins de listes sont des hommes, et 66% des listes de longueur impaire ont plus d'hommes que de femmes">
 
   <p>
     Les places stratégiques (tête de liste, fin de liste, 3<sup>ème</sup> place
