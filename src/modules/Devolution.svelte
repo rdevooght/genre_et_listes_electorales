@@ -15,7 +15,7 @@
         <span class="text-xs text-gray-500 italic">En simplifiant quelques détails</span>
       </p>
       <p> 
-      la moitié des voix attribuées à la liste et non à des candidat·es spécifiques forme un pot. 
+      La moitié des voix attribuées à la liste et non à des candidat·es spécifiques forme un pot. 
       Les voix de ce pot sont attribuées à la tête de liste, jusqu’à ce qu’elle ait assez de voix pour être élue. 
       </p>
       <p>

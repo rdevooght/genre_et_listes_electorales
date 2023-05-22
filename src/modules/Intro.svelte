@@ -1,6 +1,6 @@
 <div>
   <p>
-    En 2024, plusieurs élections auront lieu: les élections régionales, communautaires, fédérales et européennes en mai ou juin, suivies des élections communales en octobre. 
+    En 2024, plusieurs élections auront lieu: les élections régionales, communautaires, fédérales et européennes en juin, suivies des élections communales en octobre. 
     </p>
     <p>
     Bien que cela puisse sembler encore loin, les partis politiques préparent déjà leurs listes électorales. Un enjeu crucial sera la place des femmes sur ces listes. 

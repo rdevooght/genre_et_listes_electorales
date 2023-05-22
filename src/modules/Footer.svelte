@@ -51,6 +51,10 @@
       merci de me prévenir et je les corrigerai immédiatement. 
       Je tiens à présenter mes excuses à toute personne que j’aurais mégenré dans les données ci-dessus.
     </p>
+
+    <p>
+      Le <a href="">code</a> et les <a href="">données</a> sont disponible sur Github.
+    </p>
   </div>
 </footer>
 
