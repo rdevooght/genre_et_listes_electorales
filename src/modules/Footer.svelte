@@ -53,7 +53,7 @@
     </p>
 
     <p>
-      Le <a href="">code</a> et les <a href="">données</a> sont disponible sur Github.
+      Le <a href="https://github.com/rdevooght/genre_et_listes_electorales">code</a> et les <a href="https://github.com/rdevooght/genre_et_listes_electorales/tree/main/data">données</a> sont disponible sur Github.
     </p>
   </div>
 </footer>
