@@ -19,7 +19,7 @@
       On peut l'interpréter comme une sous-estimation, de la part du parti, de la capacité du ou de la candidat·e à obtenir des voix.
     </p>
     <p>
-      A l’inverse, certain·es candidates ont perdu des places, leur position dans la liste était plus élevée que leur capacité à obtenir des voix.
+      A l’inverse, certain·es candidat·es ont perdu des places, leur position dans la liste était plus élevée que leur capacité à obtenir des voix.
     </p>
     
     
