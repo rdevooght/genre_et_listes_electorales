@@ -22,7 +22,7 @@
 </script>
 
 <table class="w-full rounded overflow-hidden">
-  <thead class="bg-slate-200">
+  <thead class="bg-slate-200 dark:bg-slate-800">
     <tr>
       <th rowspan="2">Election</th><th colspan="3" class="w-1/2 sm:w-2/3">% de femmes</th>
     </tr>
@@ -34,7 +34,7 @@
   </thead>
   <tbody>
     {#each with_without_dev as row, i}
-    <tr class:bg-slate-100={i % 2 === 0}>
+    <tr>
       <td>{row.group}</td>
       <td class="text-center">{row.with_devolution}</td>
       <td class="text-center">{evolution_symbol(row.with_devolution, row.without_devolution)}</td>
@@ -42,7 +42,7 @@
     </tr>
     {/each}
   </tbody>
-  <tfoot class="bg-slate-200">
+  <tfoot class="bg-slate-200 dark:bg-slate-800">
     <tr class="border-t-2 border-slate-600 font-bold">
       <td>Total</td>
       <td class="text-center">{with_without_dev_total.with_devolution}</td>
@@ -62,4 +62,14 @@
   tfoot tr:first-child td {
     padding-top: 8px;
   }
+  tbody tr:nth-child(even) {
+    @apply bg-slate-100;
+  }
+
+  @media only screen and (prefers-color-scheme: dark) {
+    tbody tr:nth-child(even) {
+      background-color: #324054;
+    }
+  }
+
 </style>

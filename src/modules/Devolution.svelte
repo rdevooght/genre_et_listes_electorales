@@ -9,7 +9,7 @@
     Être positionné en tête de liste est un avantage en termes de visibilité pendant la campagne et dans les bureaux de vote, et joue à priori un rôle dans l’obtention d’un plus grand nombre de voix de préférences. Mais ce n’est pas le seul avantage d’une position en début de liste, en effet, la tête de liste sera la première personne à bénéficier du système de dévolution des voix.
     </p>
 
-    <div class="rounded bg-slate-50 border p-2 mb-4 w-fit">
+    <div class="rounded bg-slate-50 dark:bg-slate-800 dark:border-slate-700 border p-2 mb-4 w-fit">
       <p>
         <span class="text-lg font-bold">Comment fonctionne la dévolution ?</span><br/>
         <span class="text-xs text-gray-500 italic">En simplifiant quelques détails</span>

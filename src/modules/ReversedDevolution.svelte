@@ -71,10 +71,10 @@
     <ul>
       <li class="list-none mb-0">
         <span class="inline-block w-3 h-3" style:background-color={gender_colors.F}></span> 
-        <span class="text-sm text-gray-600">Pourcentage de sièges obtenus par des femmes</span></li>
+        <span class="text-sm text-gray-600 dark:text-gray-300">Pourcentage de sièges obtenus par des femmes</span></li>
       <li class="list-none">
         <span class="inline-block w-3 h-3" style:background-color={gender_colors.M}></span>
-        <span class="text-sm text-gray-600">Pourcentage de sièges obtenus par des hommes</span></li>
+        <span class="text-sm text-gray-600 dark:text-gray-300">Pourcentage de sièges obtenus par des hommes</span></li>
     </ul>
   </legend>
 </div>
@@ -88,6 +88,7 @@
     flex: auto;
     border-radius: 0;
     padding: 10px 15px;
+    color: #415462;
     @apply bg-amber-100;
   }
   .button-group button:first-child {

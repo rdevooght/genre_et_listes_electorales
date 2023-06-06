@@ -70,20 +70,20 @@
       <ul class="mb-2">
         <li class="list-none mb-0">
           <span class="inline-block w-3 h-3" style:background-color={colors.positive}></span> 
-          <span class="text-sm text-gray-600">Meilleur classement en termes de voix que dans la liste</span>
+          <span class="text-sm text-gray-600 dark:text-gray-300">Meilleur classement en termes de voix que dans la liste</span>
         </li>
         <li class="list-none mb-0">
           <span class="inline-block w-3 h-3" style:background-color={colors.neutral}></span> 
-          <span class="text-sm text-gray-600">Même classement en termes de voix que dans la liste</span>
+          <span class="text-sm text-gray-600 dark:text-gray-300">Même classement en termes de voix que dans la liste</span>
         </li>
         <li class="list-none mb-0">
           <span class="inline-block w-3 h-3" style:background-color={colors.negative}></span> 
-          <span class="text-sm text-gray-600">Moins bon classement en termes de voix que dans la liste</span>
+          <span class="text-sm text-gray-600 dark:text-gray-300">Moins bon classement en termes de voix que dans la liste</span>
         </li>
       </ul>
     </legend>
 
-    <p class="text-xs text-gray-500 italic lg:text-right">
+    <p class="text-xs text-gray-500 dark:text-gray-300 italic lg:text-right">
       On ne tient pas compte ici des candidat·es à la dernière position dans les listes, 
       car il est attendu de leur part d’obtenir un meilleur classement que leur position dans la liste.
     </p>
@@ -99,6 +99,7 @@
     flex: auto;
     border-radius: 0;
     padding: 10px 15px;
+    color: #415462;
     @apply bg-amber-100;
   }
   .button-group button:first-child {

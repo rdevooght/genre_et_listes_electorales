@@ -1,4 +1,4 @@
-<footer class="bg-slate-100">
+<footer class="bg-slate-100 dark:bg-slate-800">
   <div class="container mx-auto">
     <h2>A propos</h2>
 

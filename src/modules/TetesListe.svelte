@@ -79,6 +79,7 @@
     flex: auto;
     border-radius: 0;
     padding: 10px 15px;
+    color: #415462;
     @apply bg-amber-100;
   }
   .button-group button:first-child {

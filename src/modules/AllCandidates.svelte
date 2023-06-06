@@ -25,12 +25,12 @@
 </script>
 
 <div 
-  class="relative rounded p-1 border bg-slate-50 mb-3" 
+  class="relative rounded p-1 border bg-slate-50 dark:bg-slate-800 dark:border-slate-700 mb-3" 
   on:mouseover={() => auto_play = false} on:mouseout={() => auto_play = true}
   on:focus={() => auto_play = false} on:blur={() => auto_play = true}
 >
 
-  <div class="text-lg px-2">{rc.first_name} {rc.last_name}</div>
+  <div class="text-lg px-2 dark:text-gray-100">{rc.first_name} {rc.last_name}</div>
 
   <div class="flex flex-col sm:flex-row sm:gap-3 mb-2 px-2">
     <div>
@@ -38,10 +38,10 @@
       <span class="inline-block px-1 rounded text-white" style:background-color={get_party_color(rc)}>{rc.party}</span> 
     </div>
     <div>
-      <span class="text-gray-500">Elections:</span> {rc.election}
+      <span class="text-gray-500 dark:text-gray-300">Elections:</span> {rc.election}
     </div>
     <div>
-      <span class="text-gray-500">Circonscription:</span> {rc.circonscription}
+      <span class="text-gray-500 dark:text-gray-300">Circonscription:</span> {rc.circonscription}
     </div>
   </div>
 

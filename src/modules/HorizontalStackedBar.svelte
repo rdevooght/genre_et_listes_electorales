@@ -26,6 +26,7 @@
     <div 
       class="bar text-center" 
       class:text-white={!color_is_light(bar.color)}
+      class:text-gray-800={color_is_light(bar.color)}
       style:background-color={bar.color}
       style:width={`${bar.width}%`}
       data-tooltip={get_tooltip(bar)}
