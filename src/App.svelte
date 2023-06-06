@@ -15,8 +15,8 @@
   <Intro />
   <DataAndResults />
   <FemmesAuSecondPlan />
-  <FemmesSousClassees />
   <Devolution />
+  <FemmesSousClassees />
   <Conclusion />
 </main>
 
