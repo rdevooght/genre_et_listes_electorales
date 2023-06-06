@@ -1,9 +1,9 @@
 <div>
   <p>
-    En 2024, plusieurs élections auront lieu: les élections régionales, communautaires, fédérales et européennes en juin, suivies des élections communales en octobre. 
+    En 2024, plusieurs élections auront lieu : régionales, communautaires, fédérales et européennes en juin, suivies des communales en octobre. 
     </p>
     <p>
-    Bien que cela puisse sembler encore loin, les partis politiques préparent déjà leurs listes électorales. Un enjeu crucial sera la place des femmes sur ces listes. 
+      Bien que cela puisse sembler encore loin, les partis politiques préparent déjà leurs listes électorales. La place des femmes sur ces listes constitue un enjeu central.
     </p>
     <p>
     On le sait, les femmes sont sous-représentées dans les différents parlements et <a href="https://blog.robindevooght.be/posts/genre_au_parlement_wallon/">ont moins souvent la parole</a>. Cette inégalité découle en partie de la place des femmes sur les listes électorales.

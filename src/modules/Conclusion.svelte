@@ -9,7 +9,7 @@
 
   <p>
     De nouvelles règles pourraient être mises en place, 
-    comme l’obligation de la tirette qui 
+    comme l’obligation d’alterner entre hommes et femmes qui 
     <a href="https://www.lalibre.be/belgique/politique-belge/2020/11/20/la-tirette-sera-dapplication-pour-le-scrutin-regional-de-2024-a-bruxelles-2LHSV42QHBAW7BGJJ4QE3OYO3I/">sera d’application sur la région de Bruxelles-Capitale aux prochaines élections</a>. 
     Mais il y a aussi <strong>une responsabilité des partis politiques à faire de la parité une priorité lors de la conception des listes</strong>.
     Avec les élections de 2024 qui approchent, nous verrons bientôt quel parti aura pris cet enjeu au sérieux.

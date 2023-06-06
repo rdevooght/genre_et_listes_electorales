@@ -30,7 +30,7 @@
     <p>
       Les données de listes électorales et de votes proviennent de la 
       <a href="https://elections.fgov.be/elections-du-26-mai-2019-tableaux-des-resultats">Direction des Elections du SPF Intérieur</a>. 
-      Ces données ont été compilées, reformatées pour être plus facilement analysables, et sont disponibles ici (lien à ajouter).
+      Ces données ont été compilées, reformatées pour être plus facilement analysables, et sont disponibles <a href="https://github.com/rdevooght/genre_et_listes_electorales/tree/main/data">ici</a>.
     </p>
     <p>
       Il n’existe pas de données publiques sur le genre ni sur le sexe légal des candidat·es. 

@@ -34,36 +34,39 @@
 
   <h2>484 élu·es</h2>
 
-  {#each parliamentData as parliament, i}
-  <div class="mt-1 mb-3">
-    <caption class="w-full text-left">{parliament.name}</caption>
-    <HorizontalStackedBar
-      data={[
-        { name: "Femmes", value: parliament.F, color: gender_colors.F, showName: i === 0},
-        { name: "Hommes", value: parliament.M, color: gender_colors.M, showName: i === 0 },
-      ]}
-    />
-  </div>
-  {/each}
+  <p>
+    Commençons par jeter un coup d'œil aux résultats de ces élections : 
+    aucun parlement n’atteint la parité.
+  </p>
 
+  <div class="mb-6">
+    {#each parliamentData as parliament, i}
+    <div class="mt-1 mb-3">
+      <caption class="w-full text-left">{parliament.name}</caption>
+      <HorizontalStackedBar
+        data={[
+          { name: "Femmes", value: parliament.F, color: gender_colors.F, showName: i === 0},
+          { name: "Hommes", value: parliament.M, color: gender_colors.M, showName: i === 0 },
+        ]}
+      />
+    </div>
+    {/each}
+  </div>
 
   <p>
-  Aucun parlement n’a donc atteint la parité. Certains sont proches de la parité, mais il est bon de garder quelques éléments en tête:
+    Certains parlements sont proches de la parité, 
+    mais il est bon de garder deux faits à l’esprit :
   </p>
   <ul class="ml-5">
     <li>
       Nous ne sommes pas dans une situation où il y a tantôt une légère majorité de femmes, tantôt une légère majorité d’hommes: 
       Il y a eu, systématiquement, dans le passé comme aujourd’hui, une majorité d’hommes au parlement.
     </li>
-    <li>Les femmes représentent 52% de la population adulte, pas 50%.</li>
-    <li>Une différence de quelques sièges peut jouer beaucoup au sein d’un parlement.</li>
+    <li>Les femmes constituent 52% de la population adulte, pas 50%.</li>
   </ul>
+  <p>Par ailleurs, une différence de quelques sièges peut jouer beaucoup au sein d’un parlement.</p>
   <p>
-  Pourquoi y a-t-il plus d’hommes élus ? Une réponse est simplement que les hommes récoltent plus de voix que les femmes. 
-  Non seulement cette réponse ne fait que repousser la question un pas plus loin, mais en plus elle n’est pas entièrement exacte, 
-  comme on le verra plus bas en analysant l’impact du système de dévolution.
-  </p>
-  <p>
-    Les causes de cette disparité sont complexes et variées, mais cela vient entre autres de comment sont conçues les listes électorales.
+    Comment explique-t-on qu'il y ait plus d’hommes élus ? Les causes de cette disparité sont complexes et variées. 
+    Pour autant, la façon dont les partis constituent leurs listes électorales semble bien être un des facteurs importants.
   </p>
 </div>
