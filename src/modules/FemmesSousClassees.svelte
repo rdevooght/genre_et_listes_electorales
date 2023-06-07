@@ -7,11 +7,21 @@
 
     <h2>Les candidates dépassent les attentes</h2>
     <p>
-      On pourrait argumenter que si les femmes n’occupent pas les places stratégiques, c’est parce que les listes reflètent la popularité des candidat·es. 
-      En réalité, les listes sous-estiment généralement la capacité des femmes à obtenir des voix, et sur-estiment les voix que vont obtenir les hommes.
+      Les différents partis pourraient invoquer une variété de raisons afin d'expliquer cette relégation des femmes au second plan. 
+      Retenons en-une, souvent entendue : 
+      les candidates se trouveraient reléguées à des places moins stratégiques, non pas du fait qu'elles sont des femmes, 
+      mais du fait qu'elles sont moins populaires. 
+      La raison de cette inégalité serait la conséquence malheureuse d'un calcul électoral raisonné : 
+      les places stratégiques doivent revenir aux candidat·es qui rapportent des voix.
     </p>
     <p>
-      Pour le voir, comparons la position des candidat·es dans les listes avec leur classement en termes de voix de préférence. 
+      Laissons de côté la faiblesse de la raison invoquée (Les candidats ne deviennent-ils pas populaires après qu'ils aient été mis à des places stratégiques ?). 
+      Et demandons-nous, plus simplement, si les candidates sont aussi impopulaires que ce raisonnement le présuppose. 
+      En réalité, il est possible de montrer que les listes sous-estiment généralement la capacité des femmes à obtenir des voix, 
+      et sur-estiment les voix que vont obtenir les hommes.
+    </p>
+    <p>
+      Pour le voir, comparons le classement des candidat·es sur leurs listes électorales avec leur classement en termes de voix de préférence. 
     </p>
     <img src="img/performance.png" alt="Exemple d'une comparaison des positions des canditat·es sur une liste fictive, et en termes de voix de préférence"/>
     <p>
@@ -24,7 +34,9 @@
     
     
     <p>
-      Sur l’ensemble des élections, on observe que les femmes ont eu tendance à gagner des places, et que les hommes ont eu tendance à perdre des places.
+      Il est maintenant possible de se demander si les femmes sont plus souvent sous-estimées que les hommes ? 
+      Pour les élections de 2019, la conclusion est très claire: 
+      les femmes ont eu tendance à gagner des places, tandis que que les hommes ont eu tendance à perdre des places.
     </p>
 
     <ExplorateurDePerformances />
