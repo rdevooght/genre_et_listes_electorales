@@ -29,7 +29,6 @@
 
   <p>
     Des données d’une telle ampleur permettent d’identifier certaines pratiques récurrentes.
-    Voyons d’abord le résultat de ces élections
   </p>
 
   <h2>484 élu·es</h2>
@@ -59,7 +58,7 @@
   </p>
   <ul class="ml-5">
     <li>
-      Nous ne sommes pas dans une situation où il y a tantôt une légère majorité de femmes, tantôt une légère majorité d’hommes: 
+      Il n’y a pas tantôt une légère majorité de femmes, tantôt une légère majorité d’hommes: 
       Il y a eu, systématiquement, dans le passé comme aujourd’hui, une majorité d’hommes au parlement.
     </li>
     <li>Les femmes constituent 52% de la population adulte, pas 50%.</li>

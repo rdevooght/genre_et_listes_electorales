@@ -34,7 +34,7 @@
     
     
     <p>
-      Il est maintenant possible de se demander si les femmes sont plus souvent sous-estimées que les hommes ? 
+      On peut maintenant poser la question: les femmes sont-elles plus souvent sous-estimées que les hommes ? 
       Pour les élections de 2019, la conclusion est très claire: 
       les femmes ont eu tendance à gagner des places, tandis que que les hommes ont eu tendance à perdre des places.
     </p>

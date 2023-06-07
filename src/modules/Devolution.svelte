@@ -5,7 +5,7 @@
 </script>
 
 <div>
-    <h2>L’importance des places stratégiques</h2>
+    <h2>L’importance des premières places</h2>
     <p>
     Être positionné en tête de liste est un avantage en termes de visibilité pendant la campagne et dans les bureaux de vote, et joue à priori un rôle dans l’obtention d’un plus grand nombre de voix de préférences. Mais ce n’est pas le seul avantage d’une position en début de liste, en effet, la tête de liste sera la première personne à bénéficier du système de dévolution des voix.
     </p>

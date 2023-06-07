@@ -4,7 +4,10 @@
     import TetesListe from "./TetesListe.svelte";
   import Tooltip from "./Tooltip.svelte";
 
-
+  const tooltip_text = `La deuxième place est aussi une place stratégique, mais elle est contrainte par l’obligation d’avoir un homme et une femme parmi les deux premières places. On y trouve donc logiquement 69% de femmes.<br><br>
+Il n’y a par contre pas de contrainte sur la troisième place, et on y trouve, à nouveau, 69% d’hommes.<br><br>
+La dernière place est aussi considérée comme une place stratégique. Plus visible, elle a tendance à attirer plus de voix que les places de milieu de liste.
+  `
 
 </script>
 <div>
@@ -18,15 +21,25 @@
 
   <img src="img/lists.png" alt="69% des tetes de listes sont des hommes, 56% des fins de listes sont des hommes, et 66% des listes de longueur impaire ont plus d'hommes que de femmes">
 
-  <p>
-    Les places stratégiques (tête de liste, fin de liste, 3<sup>ème</sup> place
-    <Tooltip content="Les deux premières places doivent être occupées par une femme et un homme, mais il n’y a pas de contrainte sur la 3ème place. Dans 69% des cas, il s’agit d’un homme.">?</Tooltip>
-    ) sont majoritairement occupées par des hommes. 
-    Dans les cas où la liste n’est pas paritaire, c’est le plus souvent en faveur des hommes
-    <Tooltip content="Parmi les 364 listes effectives, 183 ont un nombre impair de candidat·es. Les 181 listes de longueur paire doivent, légalement, être paritaires">?</Tooltip>.
-  </p>
+  <p class="mb-2">L’inégalité emprunte deux principaux chemins :</p>
+  <ol class="ml-5 list-decimal">
+    <li>
+      Les listes impaires auront tendance à contenir plus d’hommes que de femmes
+      <Tooltip content="Parmi les 364 listes effectives, 183 ont un nombre impair de candidat·es. Les 181 listes de longueur paire doivent, légalement, être paritaires">?</Tooltip>.
+    </li>
+    <li>
+      Les  places stratégiques (première, troisième et dernière places
+      <Tooltip content={tooltip_text}>?</Tooltip>
+      ) ont tendance à compter plus d’hommes que de femmes.
+    </li>
+  </ol>
 
   <p>Voyons comment ces observations changent en fonction des élections et des partis:</p>
 
   <TetesListe />
+
+  <p>
+    Une lecture rapide permet de noter que les listes Vlaams-Belang, le PS et la NVA ont moins de 20% de femmes dans les premières places 
+    tandis que les listes SPA, Groen, Open-VLD, Ecolo ont plus de 40% de femmes aux 1e et 3e places.
+  </p>
 </div>
