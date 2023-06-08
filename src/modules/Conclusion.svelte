@@ -4,7 +4,7 @@
     Malgré des lois strictes sur la parité des listes électorales, 
     les hommes bénéficient souvent des meilleures places. 
     En plus de leur donner plus de visibilité pendant les campagnes, 
-    cela jouent un rôle déterminant au moment de l’attribution des sièges via le système de dévolution des voix.
+    cela joue un rôle déterminant au moment de l’attribution des sièges via le système de dévolution des voix.
   </p>
 
   <p>
