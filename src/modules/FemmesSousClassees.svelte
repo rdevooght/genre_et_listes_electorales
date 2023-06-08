@@ -25,11 +25,11 @@
     </p>
     <img src="img/performance.png" alt="Exemple d'une comparaison des positions des canditat·es sur une liste fictive, et en termes de voix de préférence"/>
     <p>
-      Certain·es candidat·es dépassent les attentes et ont une meilleure place en termes de voix de préférence que dans la liste électorale. 
-      On peut l'interpréter comme une sous-estimation, de la part du parti, de la capacité du ou de la candidat·e à obtenir des voix.
-    </p>
-    <p>
-      A l’inverse, certain·es candidat·es ont perdu des places, leur position dans la liste était plus élevée que leur capacité à obtenir des voix.
+      Certain·es candidat·es dépassent les attentes : 
+      iels ont un meilleur classement selon leurs voix de préférence que sur leurs listes électorales. 
+      Nous dirons que le parti a sous-estimé leur popularité. D’autres candidat·es déçoivent les attentes : 
+      leur position dans la liste est plus élevée que leur capacité à obtenir des voix. 
+      Nous dirons que le parti a surestimé leur popularité. 
     </p>
     
     
