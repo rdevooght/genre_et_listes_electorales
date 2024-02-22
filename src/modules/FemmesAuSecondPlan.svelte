@@ -36,7 +36,7 @@ La dernière place est aussi considérée comme une place stratégique. Plus vis
 
   <p>Voyons comment ces observations changent en fonction des élections et des partis:</p>
 
-  <TetesListe />
+  <TetesListe id="tetes-listes"/>
 
   <p>
     Une lecture rapide permet de noter que les listes Vlaams-Belang, le PS et la NVA ont moins de 20% de femmes dans les premières places 
